@@ -1,0 +1,25 @@
+{
+  "configs": [
+    "deply-maven-ci-cd.xml"
+  ],
+  "secureProperties": [],
+  "supportedJavaVersions": [],
+  "redeploymentEnabled": true,
+  "name": "4ec39a4c-86ce-4a50-8708-e7ba94863300:deply-maven-ci-cd:1.0.0-SNAPSHOT",
+  "minMuleVersion": "4.8.1",
+  "requiredProduct": "MULE",
+  "classLoaderModelLoaderDescriptor": {
+    "id": "mule",
+    "attributes": {
+      "exportedPackages": [],
+      "exportedResources": [
+        "log4j2.xml",
+        "deply-maven-ci-cd.xml"
+      ]
+    }
+  },
+  "bundleDescriptorLoader": {
+    "id": "mule",
+    "attributes": {}
+  }
+}
